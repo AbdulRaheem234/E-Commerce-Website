@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RedStore | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="assets/logo.png" alt="" width="125px" /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Products.html">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="Account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html"><img src="assets/cart.png" alt="" width="30px" height="30px" /></a>
+          <img
+            src="assets/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menutoggle()"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Give your Workout <br />A New Style!</h1>
+            <p>
+              Success isn't always about greatness. Consistent <br />hard work
+              gains successs.Greatness will come.
+            </p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="assets/image1.png"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------- Featured Categories ------->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="assets/category-1.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="assets/category-2.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="assets/category-3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------- Featured Products ------->
+    <div class="small-container">
+      <h2 class="title">Featured products</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="Product details.html"><img src="assets/product-1.jpg" alt="" /></a>
+          <h4>Red printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="assets/product-2.jpg" alt="" />
+          <h4>HRX Black Mesh Running Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="assets/product-3.jpg" alt="" />
+          <h4>Benetton Charcoal Grey Solid Joggers</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="assets/product-4.jpg" alt="" />
+          <h4>Puma Men Navy Blue Solid Polo T-shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="assets/product-5.jpg" alt="" />
+          <h4>HRX Men Grey Woven Design High-Top Sneakers</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="assets/product-6.jpg" alt="" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="assets/product-7.jpg" alt="" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="assets/product-8.jpg" alt="" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="assets/product-9.jpg" alt="" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="assets/product-10.jpg" alt="" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="assets/product-11.jpg" alt="" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="assets/product-12.jpg" alt="" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!------- offer ------->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="assets/exclusive.png" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on RedStore</p>
+            <h1>Smart Band 4</h1>
+            <small
+              >The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
+              AMOLED color full-touch display with adjustable brightness, so
+              everything is clear as can be.</small
+            >
+            <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------- testimonials ------>
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Sean Parker is an American entrepreneur and philanthropist, most
+              notable for co-founding the file-sharing computer service Napster,
+              and was the first president of the social networking website
+              Facebook. He also co-founded Plaxo, Causes, Airtime.com, and
+              Brigade, an online platform for civic engagement.He is the founder
+              and chairman of the Parker Foundation, which focuses on life
+              sciences, global public health, and civic engagement. According to
+              Forbes, as of May 2025, Parker's estimated net worth stood at
+              US$3.0 billion, placing him in the top 1,250 richest individuals
+              in the world.
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="assets/user-1.png" alt="" />
+            <h3>Sean Parker</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Mike Smith is a Canadian actor, screenwriter, comedian and
+              musician. He is best known for his portrayal of Bubbles and
+              co-writer of the cult classic television program, films and stage
+              production Trailer Park Boys. He was also the guitarist for the
+              Canadian rock band Sandbox. Smith earned a degree in English from
+              St. Francis Xavier University in Antigonish, Nova Scotia.
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="assets/user-2.png" alt="" />
+            <h3>Mike Smith</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>
+              Justin Drew Bieber is a Canadian singer. Regarded as a pop icon,
+              he is recognized for his multi-genre musical performances. He was
+              discovered by record executive Scooter Braun in 2008 and
+              subsequently brought to the United States by singer Usher, both of
+              whom formed the record label RBMG Records to sign Bieber in
+              October of that year. His debut extended play (EP), My World
+              (2009), was met with international recognition and established him
+              as a teen idol.
+            </p>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="assets/user-3.png" alt="" />
+            <h3>Justin Bieber</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------ Brands ------>
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="assets/logo-godrej.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="assets/logo-oppo.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="assets/logo-coca-cola.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="assets/logo-paypal.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="assets/logo-philips.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------ footer ------>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download app for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="assets/play-store.png" alt="" />
+              <img src="assets/app-store.png" alt="" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="assets/logo-white.png" alt="" />
+            <p>
+              Our Purpose Is To Sustainably Make the Pleaure and Benefits of
+              Sports Accessible to the Many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>FACEBOOK</li>
+              <li>TWITTER</li>
+              <li>INSTAGRAM</li>
+              <li>YOUTUBE</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2025 - Easy Tutorials</p>
+      </div>
+    </div>
+    <!------ js for toggle menu ------>
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if ((MenuItems.style.maxHeight == "0px")) {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
